@@ -1,0 +1,7 @@
+client_id=github-user-client-id
+client_secret=github-user-client-secret
+grant_type=client_credentials
+user_id=github-user-id
+access_token=github-token
+user=github-repo-owner
+repo=github-repo-name
