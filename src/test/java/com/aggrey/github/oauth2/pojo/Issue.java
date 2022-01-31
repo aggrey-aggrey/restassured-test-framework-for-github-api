@@ -51,10 +51,11 @@ import com.aggrey.oauth2.pojo.Assignee__1;
 @Generated("jsonschema2pojo")
 public class Issue {
 
-    public Issue (String user, PullRequest pullrequest, String url){
+    public Issue (String user, PullRequest pullrequest, String url, String title){
         this.user = user;
         this.pullRequest = pullrequest;
         this.url = url;
+        this.title = title;
     }
 
     @JsonProperty("id")
@@ -219,9 +220,9 @@ public class Issue {
     }
 
     @JsonProperty("title")
-    public Issue setTitle(String title) {
+    public String setTitle(String title) {
         this.title = title;
-        return this;
+        return title;
     }
 
     @JsonProperty("body")
