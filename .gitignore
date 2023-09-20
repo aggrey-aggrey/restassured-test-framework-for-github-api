@@ -36,7 +36,8 @@
 # Maven #
 #########
 **/target/*
-target
+target/
+
 
 # Other IDE's#
 ##############
